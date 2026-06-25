@@ -8,7 +8,7 @@
   export default {
     name: 'HomePage',
     mounted() {
-      fetch('/api/hello')
+      fetch('https://test-edu-id-be-dz8s.vercel.app/api/hello')
         .then(res => res.json())
         .then(data => {
           this.message = data.message
@@ -17,7 +17,7 @@
     },
     methods: {
       callAPI () {
-        fetch('/api/hello')
+        fetch('https://test-edu-id-be-dz8s.vercel.app/api/hello')
         .then(res => res.json())
         .then(data => {
           this.message = data.message
