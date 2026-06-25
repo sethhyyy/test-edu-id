@@ -26,7 +26,7 @@
         const scope = 'person_id passport_number prefix first_name last_name birth_date gender_id'
         await axios({
           method: 'GET',
-          url: `${process.env.VUE_APP_EDU_ID_URL}/oauth2/v1/authorize?client_id${client_id}&redirect_uri=${redirect_uri}&response_type=${response_type}&scope=${scope}`,
+          url: `https://uat-edu.id.th/oauth2/v1/authorize?client_id${client_id}&redirect_uri=${redirect_uri}&response_type=${response_type}&scope=${scope}`,
           headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
           }
