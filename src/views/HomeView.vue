@@ -19,9 +19,9 @@
     },
     methods: {
       async callAPI () {
-        alert(JSON.stringify(process.env, null, 2))
-        const client_id = ''
-        const redirect_uri = ''
+        console.log(JSON.stringify(process.env, null, 2))
+        const client_id = '1'
+        const redirect_uri = '1'
         const response_type = 'code'
         const scope = 'person_id passport_number prefix first_name last_name birth_date gender_id'
         await axios({
