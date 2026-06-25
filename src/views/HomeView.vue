@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>Test Edu ID</h1>
-    <v-btn @click="callAPI">Test Edu ID</v-btn>
+    <v-btn @click="callAPI">ปุ่มทดสอบ EDU ID</v-btn>
     <v-btn @click="healthCheck">Health Check</v-btn>
   </div>
 </template>
