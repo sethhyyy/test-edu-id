@@ -19,6 +19,7 @@
     },
     methods: {
       async callAPI () {
+        alert(JSON.stringify(process.env, null, 2))
         const client_id = ''
         const redirect_uri = ''
         const response_type = 'code'
