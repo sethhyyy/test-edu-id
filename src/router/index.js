@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import eduIdRedirect from '../views/edu-id-redirect.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +10,11 @@ const routes = [
     path: '/',
     name: 'HomePage',
     component: HomeView
+  },
+  {
+    path: '/edu-id-redirect',
+    name: 'HomePage',
+    component: eduIdRedirect
   },
   {
     path: '/about',
