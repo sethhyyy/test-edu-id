@@ -24,7 +24,7 @@
         const redirect_uri = '1'
         const response_type = 'code'
         const scope = 'person_id passport_number prefix first_name last_name birth_date gender_id'
-        window.location.href(`https://uat-edu.id.th/oauth2/v1/authorize?client_id=${client_id}&redirect_uri=${redirect_uri}&response_type=${response_type}&scope=${scope}`)
+        window.location.href = `https://uat-edu.id.th/oauth2/v1/authorize?client_id=${client_id}&redirect_uri=${redirect_uri}&response_type=${response_type}&scope=${scope}`
         // await axios({
         //   method: 'GET',
         //   url: `https://uat-edu.id.th/oauth2/v1/authorize?client_id=${client_id}&redirect_uri=${redirect_uri}&response_type=${response_type}&scope=${scope}`,
